@@ -1,0 +1,139 @@
+.limiter2 {
+    width: 100%;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.container-shadow{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-notshadow{ 
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.wrap-m{
+    width: 900px;
+    background: #fff;
+    border-radius: 50px;
+    justify-content: left;
+    /* margin-left: 100px; */
+    padding: 30px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrap-big{
+    width: 1200px;
+    background: #fff;
+    border-radius: 50px;
+    justify-content: left;
+    /* margin-left: 100px; */
+    padding: 30px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-dialog {
+    max-width: 700px;
+    border-radius: 50px;
+}
+
+#inner {
+    width: 50%;
+    margin: 0 auto;
+    }
+
+.indicator-modified div ol li{
+    background-color:rgb(101, 37, 114);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after{
+    content: '⪢';
+    font-size: 40px;
+    color: rgb(101, 37, 114);
+}
+
+.carousel-control-prev-icon:after{
+    content: '⪡';
+    font-size: 40px;
+    color: rgb(101, 37, 114);
+}
+
+.innerModal{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.progress-bar {
+    background-color: purple;
+    color: white;
+}
+
+.alerta-personalizada{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 60%
+}
+
+.alerta-personalizada2{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: left;
+}
+
+.my-modal {
+    width: 100%;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.btn-morado{
+    background-color: rgb(127, 58, 140);
+    color: white;
+}
+
+.color-ui { 
+    color: green; 
+    font-size: 20px;
+}
+
+.color-ui2 { 
+    color: white; 
+    font-size: 20px;
+}
